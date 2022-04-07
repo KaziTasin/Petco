@@ -1,0 +1,12 @@
+1.shop
+2.shop details
+3.adoption
+4.adoption page slide
+5.blog details form 
+6.back to top button
+7.loader
+8.menu active
+9.text select color
+
+
+https://drive.google.com/drive/folders/1K0ePF1hPkZdVckwL5zCS9-d2uIxDNIv-?usp=sharing

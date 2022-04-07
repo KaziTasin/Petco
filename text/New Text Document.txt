@@ -1,0 +1,3 @@
+  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
+<i class="bi bi-x-lg"></i>

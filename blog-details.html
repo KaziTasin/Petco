@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petco-Pet-BreederAdoption-html5-Template</title>
+    <!-- ========================================= -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!--================================================= -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body onload="myfunction()">
+
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+    </div>
+    <!-- =================================
+    HEADER PART START
+    =====================================-->
+    <div class="top-canvas">
+        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header">
+                <div class="box">
+                    <div class="content">
+                        <h1>...Search Here...</h1>
+                        <input type="text" placeholder="Type keywords here"> <i class="fas fa-search rongo"></i>
+                    </div>
+                </div>
+                <button type="button" class="kyabat" data-bs-dismiss="offcanvas"><i
+                        class="fa-solid fa-xmark"></i></button>
+            </div>
+        </div>
+    </div>
+    <!-- ===================================================================== -->
+    <!-- =================================
+    HEADER PART END
+    =====================================-->
+
+    <!-- =================================
+   NAV PART START
+    =====================================-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <img src="images/logo.png" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars bar"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dog-list.html">Dog List</a>
+                    </li>
+                    <li class=" nav-item drop">
+                        <a href="ourshop.html" class="nav-link shop-a">Shop</a>
+                        <div class="drop-down shadow">
+                            <ul>
+                                <li>
+                                    <a href="ourshop.html">Our Shop</a>
+                                </li>
+                                <li>
+                                    <a href="shop-details.html">Shop Details</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="adoption.html">Adoption</a>
+                    </li>
+                    <li class="nav-item drop">
+                        <a class="nav-link" href="breeder.html">Breeder</a>
+                        <div class="drop-down shadow">
+                            <ul>
+                                <li>
+                                    <a href="breeder.html">Our Breeder</a>
+                                </li>
+                                <li>
+                                    <a href="breeder -details.html">Breeder Details</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item drop active">
+                        <a class="nav-link" href="blog.html"> Blog</a>
+                        <div class="drop-down shadow">
+                            <ul>
+                                <li>
+                                    <a href="blog.html">Our Blog</a>
+                                </li>
+                                <li class="ttp">
+                                    <a href="blog-details.html">Blog Details</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">contacts</a>
+                    </li>
+                </ul>
+                <div class="right">
+                    <button class="canvas" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                        aria-controls="offcanvasTop"> <i class="fas fa-search rongo">
+                        </i></button>
+                    <i class="bi bi-bag-dash sea">
+                        <div class="s-box">
+                            <div class="s-item">
+                                <img src="images/cart_p01.jpg" alt="cart_p01.jpg">
+                                <div class="text">
+                                    <p>The King Charles Spaniel</p>
+                                    <p> $229.9 <span>$229.9</span> </p>
+                                </div>
+                                <i class="bi bi-trash ladki"></i>
+                            </div>
+                            <div class="s-item">
+                                <img src="images/cart_p02.jpg" alt="cart_p01.jpg">
+                                <div class="text">
+                                    <p>The King Charles Spaniel</p>
+                                    <p> $229.9 <span>$229.9</span> </p>
+                                </div>
+                                <i class="bi bi-trash ladki"></i>
+                            </div>
+                            <div class="total">
+                                <p> Total: </p>
+                                <span>$239.9</span>
+                            </div>
+                            <a href="#" class="cart">SHOPPING CART</a>
+                            <a href="#" class="check">CHECKOUT</a>
+                        </div>
+                    </i>
+                    <button class="adobe">
+                        <a href="#">Adopt Here <img src="images/w_pawprint.png" alt="pawprint"></a>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- =================================
+    NAV PART END
+    =====================================-->
+
+    <!-- =================================
+    BANNER PART START
+    =====================================-->
+    <section id="banner">
+        <div class="h-shape">
+            <img src="images/header_shape.png" alt="">
+        </div>
+            <div class="shop-item">
+                <div class="container">
+                     <a href="#">Our Shop</a>
+                     <p class="home">Home <span class="ssp">Shop</span></p>
+        </div>
+    </section>
+    <!-- =================================
+    BANNER PART END
+    =====================================-->
+
+<!-- ========================================
+               Bio part start
+===============================================-->
+ <section id="blog">
+     <div class="container">
+         <div class="row">
+             <div class="col-lg-8 col-md-7">
+                 <div class="blog-left">
+                      <div class="blog-item">
+                          <img src="images/blog_thumb01.jpg" alt="blog_thumb01.jpg">
+                          <div class="blog-text">
+                              <p><i class="fa-regular fa-bookmark mark"></i> <span class="ko">Siberian Husky ,Breed</span> /
+                            <span><i class="fa-solid fa-user"></i>Admin</span> /
+                            <span><i class="fa-solid fa-bell"></i> Mar 10, 2021</span>
+                            </p>
+                            <h3>Online pet everything your pet needs</h3>
+                            <p>The domestic dog is a doiated dendant of the wolf. The dog derived from an ancient, extinct wolf, and the modern grey wolf is the dog's nearest living relative. The dog was the first species to be domesticated, by hunter–gatherers. These will include the core vaccines, which are administered in a series of three: at 6-, 12-, and 16 weeks old.</p>
+                            <p>Within a few hours 3-5 days after vaccion for the dog to begin developing immunity. Until a puppy has received its entire vaccine series, or until an adult dog is up to date on vaccines, their exposure to parvovirus should be minimized as much as possible.</p>
+                         <div class="blog-comment">
+                             <h4>“ Dog to begin developing immunity. Until a puppy has receivd its entire vaccine series, or until an adult dog is up to date on vaines their exposure to parvovirus ” </h4>
+                             <h6>Rosalina D.William</h6>
+                         </div>
+                         <p>Non-core vaccines are given dependng on the dog's exposure risk. These include vaccines against Bordetella bronchiseptica, Borrelia burgdorferi and Leptosira bacteria.The dog was the first species to be domesticated, by hunter–gatherers include the core vaccines.</p>
+                         
+                         <h6>
+                            <div class="bbb">Best Online Pet Until Need –</div> <span>an app becomes ans interactive story that can engage users. Designers have tools to make</span>
+                         </h6>
+                         <h6>
+                           <div class="bbb"> Until a puppy has receivd entire vaccine –</div> <span>an app becomes ans interactive story that can engage users. Designers have tools to make</span>
+                         </h6>
+                         <p>Doiated dendant of the wolf. The dog derived from an ancient, extinct wolf, and the modern grey wolf the dog's nrest living relative. The dog was the first species to be dticaed, by hunte–gatherers. These will include the core vaccines, which are administered.</p>
+                          </div>
+                          <div class="row">
+                              <div class="col-lg-6">
+                                  <div class="indor">
+                                      <img src="images/breeder_gallery02.jpg" alt="">
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="indor">
+                                      <img src="images/breeder_gallery03.jpg" alt="">
+                                  </div>
+                              </div>
+                          </div>
+                          <p>Non-core vaccines are given dependng on the dog's exposure risk. These include vaccines against Bordetella bronchiseptica, Borrelia burgdorferi and Leptosira bacteria.The dog was the first species to be domesticated, by hunter–gatherers include the core vaccines.</p>
+                          <div class="row">
+                              <div class="col-lg-8">
+                               <h6 class="ttt"> Tags :</h6>
+                               <p> Business</p> <span class="dag">|</span>
+                               <p>Work</p>  <span class="dag">|</span>
+                               <p>Knowledge</p>  <span class="dag">|</span>
+                               <p> Online</p>
+                              </div>
+                              <div class="col-lg-4">
+                               <div class="icon">
+                                <i class="fab fa-facebook-f fb"></i>
+                                <i class="fab fa-twitter tw"></i>
+                                <i class="fa-brands fa-linkedin-in ln"></i>
+                               </div>
+                              </div>
+                          </div>
+                          <img src="images/blog_item_line.png" alt="blog_item_line.png">
+                          <div class="thomas">
+                              <div class="t-img">
+                                  <img src="images/post_avatar_img.png" alt="post_avatar_img.png">
+                              </div>
+                              <div class="t-text">
+                                  <h5>Thomas Herlihy</h5>
+                                  <p>Non-core vaccines are given dependng on the dog's exposure risk. These include vaccines against Bordetella.</p>
+                                  <div class="icon">
+                                    <i class="fab fa-facebook-f fb"></i>
+                                    <i class="fab fa-twitter tw"></i>
+                                    <i class="fa-brands fa-linkedin-in ln"></i>
+                                   </div>
+                              </div>
+                          </div>
+                          <div class="t-aa">
+                              <h5 class="p-p">
+                            <i class="fas fa-angle-double-left"></i>
+                                Previous Post
+                              </h5>
+                              <h5 class="p-n">
+                                   Next Post
+                                  <i class="fas fa-angle-double-right rrt"></i>
+                                  </h5>
+                          </div>
+                      </div>
+                      <div class="leave-form">
+                          <h4>Leave a Reply</h4>
+                          <input type="text" placeholder="Author" class="author">
+                          <input type="email" placeholder="Your Mail" class="author">
+                          <input type="text" placeholder="Type Comment Here..." class="comment">
+                          <p><input type="checkbox" placeholder="Type Comment Here" class="check">Don't Show Your Email Address</p>
+                          <button>
+                              <a href="#">Submit Now</a>
+                          </button>
+                      </div>
+                 </div>
+             </div>
+             <div class="col-lg-4 col-md-5">
+                 <div class="blog-right">
+                    <div class="blog-sbox">
+                        <h4>Search</h4>
+                        <input type="text" placeholder="Search..."><i class="fas fa-search bou"></i>
+                    </div>
+                         <div class="blog-cbox">
+                                <h4>Categories</h4>
+                                <ul>
+                                    <li><a href="#">Siberian Husky </a> <i class="fas fa-angle-double-right"></i></li>
+                                    <li><a href="#">German Sherped</a><i class="fas fa-angle-double-right"></i></li>
+                                    <li><a href="#">French Bulldog  </a><i class="fas fa-angle-double-right"></i></li>
+                                    <li><a href="#">Golden Retriever </a><i class="fas fa-angle-double-right"></i></li>
+                                </ul>
+                         </div>
+                         <div class="blog-recent">
+                             <h4 class="post">Recent Post</h4>
+                             <div class="recent-item">
+                                 <img src="images/blog_thumb01.jpg" alt="blog_thumb01.jpg">
+                                 <h4>Best Online Pet Everything Your Pet Needs</h4>
+                                 <p> <span><i class="far fa-calendar-alt"></i> April 15, 2021</span></p>
+                                     <p>By <span class="adm">Admin</span> </p>
+                             </div>
+                             <div class="recent-item">
+                                 <img src="images/rc_post_thumb02.jpg" alt="blog_thumb01.jpg">
+                                 <h4>Pet Needs Special Food like Human Foods</h4>
+                                 <p> <span><i class="far fa-calendar-alt"></i>October 15, 2021</span></p>
+                                     <p>By <span class="adm">Admin</span> </p>
+                             </div>
+                         </div>
+                     <div class="letter">
+                         <img src="images/sn_icon.png" alt="sn_icon.png">
+                         <h4>Subscribe Newsletter</h4>
+                         <p>Sign-up For Latest News</p>
+                         <input type="email" placeholder="Enter Your Mail" class="mail">
+                         <button>
+                             <a href="#">Subscribe</a>
+                         </button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+<!-- ========================================
+               Bio part start
+===============================================-->
+
+
+    <!-- =================================
+     FOOTER PART START
+    =====================================-->
+    <section id="footer">
+        <img class="duck1" src="images/footer_shape01.png" alt="footer_shape01">
+        <img class="duck2" src="images/footer_shape02.png" alt="footer_shape01">
+        <img class="f-bg" src="images/testi_bg_shape01.png" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-7 col-md-6">
+                    <div class="left-foot">
+                        <img src="images/logo.png" alt="">
+                        <p>The best overall dog DNA test Embark Breed & Health Kit (view at Chewy) which provides
+                            overall dog you.</p>
+                        <h4><i class="fas fa-quote-right"></i>747-800-9880</h4>
+                        <span>Call Now</span>
+                        <div class="icons">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-vimeo-v"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-5 col-md-6">
+                    <div class="mid-item">
+                        <h4>Our Policies</h4>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms and Conditions</a></li>
+                            <li><a href="#">Editorial Policy</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                            <li><a href="#">IP Policy</a></li>
+                            <li><a href="#">Grievance Redressal Policy</a></li>
+                            <li><a href="#">Our Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-5 col-md-6">
+                    <div class="mid-item">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><a href="#">Our Breeder</a></li>
+                            <li><a href="#">Our Adoption</a></li>
+                            <li><a href="#">Editorial Policy</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                            <li><a href="#">Grievance Policy</a></li>
+                            <li><a href="#">Redressal Policy</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-7 col-md-6">
+                    <h4 class="f-last4">Instagram</h4>
+                    <div class="dog-main">
+                        <div class="dog-item">
+                            <img src="images/insta_img01.png" alt="insta_img01">
+                        </div>
+                        <div class="dog-item">
+                            <img src="images/insta_img02.png" alt="insta_img01">
+                        </div>
+                        <div class="dog-item">
+                            <img src="images/insta_img03.png" alt="insta_img01">
+                        </div>
+                        <div class="dog-item">
+                            <img src="images/insta_img04.png" alt="insta_img01">
+                        </div>
+                        <div class="dog-item">
+                            <img src="images/insta_img05.png" alt="insta_img01">
+                        </div>
+                        <div class="dog-item">
+                            <img src="images/insta_img06.png" alt="insta_img01">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================================
+    FOOTER PART END
+    =====================================-->
+<div class="up">
+    <i class="fas fa-angle-up topper"></i>
+</div>
+    <!-- =================================
+    COPY PART START
+    =====================================-->
+    <section id="copy">
+        <img class="tew" src="images/testi_bg_shape01.png" alt="">
+        <div class="container">
+<div class="ccc">
+    <div class="left">
+        <p>Copyright © 2021 Petco. All Rights Reserved.</p>
+    </div>
+            <div class="copy-right">
+                <img class="flag" src="images/united-states.png" alt="">
+                <span>English <i class="fas fa-angle-up app"></i></span>
+            </div>
+</div>
+        </div>
+    </section>
+    <!-- =================================
+    COPY PART END
+    =====================================-->
+
+
+
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.rollNumber.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

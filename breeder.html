@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petco-Pet-BreederAdoption-html5-Template</title>
+    <!-- ========================================= -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!--================================================= -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body onload="myfunction()">
+
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+    </div>
+    <!-- =================================
+    HEADER PART START
+    =====================================-->
+    <div class="top-canvas">
+        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header">
+                <div class="box">
+                    <div class="content">
+                        <h1>...Search Here...</h1>
+                        <input type="text" placeholder="Type keywords here"> <i class="fas fa-search rongo"></i>
+                    </div>
+                </div>
+                <button type="button" class="kyabat" data-bs-dismiss="offcanvas"><i
+                        class="fa-solid fa-xmark"></i></button>
+            </div>
+        </div>
+    </div>
+    <!-- ===================================================================== -->
+
+    <!-- =================================
+    HEADER PART END
+    =====================================-->
+
+    <!-- =================================
+   NAV PART START
+    =====================================-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <img src="images/logo.png" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars bar"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dog-list.html">Dog List</a>
+                    </li>
+                    <li class=" nav-item drop">
+                        <a href="ourshop.html" class="nav-link shop-a">Shop</a>
+                        <div class="drop-down shadow">
+                            <ul>
+                                <li>
+                                    <a href="ourshop.html">Our Shop</a>
+                                </li>
+                                <li>
+                                    <a href="shop-details.html">Shop Details</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="adoption.html">Adoption</a>
+                    </li>
+                    <li class="nav-item drop active">
+                        <a class="nav-link" href="breeder.html">Breeder</a>
+                        <div class="drop-down shadow">
+                            <ul>
+                                <li>
+                                    <a href="breeder.html">Our Breeder</a>
+                                </li>
+                                <li>
+                                    <a href="breeder -details.html">Breeder Details</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item drop">
+                        <a class="nav-link" href="blog.html"> Blog</a>
+                        <div class="drop-down shadow">
+                            <ul>
+                                <li>
+                                    <a href="blog.html">Our Blog</a>
+                                </li>
+                                <li>
+                                    <a href="blog-details.html">Blog Details</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">contacts</a>
+                    </li>
+                </ul>
+                <div class="right">
+                    <button class="canvas" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                        aria-controls="offcanvasTop"> <i class="fas fa-search rongo">
+                        </i></button>
+                    <i class="bi bi-bag-dash sea">
+                        <div class="s-box">
+                            <div class="s-item">
+                                <img src="images/cart_p01.jpg" alt="cart_p01.jpg">
+                                <div class="text">
+                                    <p>The King Charles Spaniel</p>
+                                    <p> $229.9 <span>$229.9</span> </p>
+                                </div>
+                                <i class="bi bi-trash ladki"></i>
+                            </div>
+                            <div class="s-item">
+                                <img src="images/cart_p02.jpg" alt="cart_p01.jpg">
+                                <div class="text">
+                                    <p>The King Charles Spaniel</p>
+                                    <p> $229.9 <span>$229.9</span> </p>
+                                </div>
+                                <i class="bi bi-trash ladki"></i>
+                            </div>
+                            <div class="total">
+                                <p> Total: </p>
+                                <span>$239.9</span>
+                            </div>
+                            <a href="#" class="cart">SHOPPING CART</a>
+                            <a href="#" class="check">CHECKOUT</a>
+                        </div>
+                    </i>
+                    <button class="adobe">
+                        <a href="#">Adopt Here <img src="images/w_pawprint.png" alt="pawprint"></a>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- =================================
+    NAV PART END
+    =====================================-->
+
+    <!-- =================================
+    BANNER PART START
+    =====================================-->
+    <section id="banner">
+        <div class="h-shape">
+            <img src="images/header_shape.png" alt="">
+        </div>
+            <div class="shop-item">
+                <div class="container">
+                     <a href="#">Our Shop</a>
+                     <p class="home">Home <span class="ssp">Shop</span></p>
+        </div>
+    </section>
+    <!-- =================================
+    BANNER PART END
+    =====================================-->
+<!-- =================================
+    Meet Adoption start
+========================================-->
+<section id="Meet-Adoption">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4">
+                <div class="left">
+                    <h4>Meet Adoption</h4>
+                    <h3>Work For <span>Adoption</span> Happy Time</h3>
+                    <p>The best overall dog DNA test is Embark Breed & Health Kit view at Chewy which pres domesti dog is a sticated descendant.</p>
+                    <h6><i class="fa-solid fa-check"></i> Embark Breed & Health</h6>
+                    <h6><i class="fa-solid fa-check"></i> The domestic dog is a domesticated</h6>
+                </div>
+            </div>
+            <div class="col-lg-4 p-0 col-md-4 p-0">
+                <div class="bred-slider">
+                    <div class="bred-item">
+                        <img src="images/breeder_img01.jpg" alt="breed_services">
+                    </div>
+                    <div class="bred-item">
+                        <img src="images/breeder_img02.jpg" alt="breed_services">
+                    </div>
+                    <div class="bred-item">
+                        <img src="images/breeder_img03.jpg" alt="breed_services">
+                    </div>
+                    <div class="bred-item">
+                        <img src="images/breeder_img04.jpg" alt="breed_services">
+                    </div>
+                    <div class="bred-item">
+                        <img src="images/breeder_img05.jpg" alt="breed_services">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 p-0 col-sm-7 col-md-4 p-0">
+                <div class="able-right">
+                    <h5>Dog Breeder</h5>
+                    <h4>Available for Adoption</h4>
+                    <p>The best overall dog DNA test is Embark Breed & Health Kit (view at Chewy), which provid dogs
+                    </p>
+                    <button>
+                        <a href="#" class="slick-arrow" style="display: inline-block;">More Pets <img src="images/pawprint.png" alt="w_pawprint.png"> </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- =================================
+    Meet Adoption End
+========================================-->
+
+    <!-- =================================
+    COUNTER PART START
+    =====================================-->
+    <section id="coun2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-md-3">
+                    <div class="counter-main">
+                        <div class="counter-item">
+                            <div class="number-diy">
+                                <h2 class="data" data-number="73"></h2>
+                            </div>
+                            %
+                        </div>
+                        <h5>dogs are first bred</h5>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-sm-6 col-md-3">
+                    <div class="counter-main">
+                        <div class="counter-item">
+                            <div class="number-diya">
+                                <h2 class="data" data-number="259"></h2>
+                            </div>
+                            +
+                        </div>
+                        <h5>Most dogs are first</h5>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-sm-6 col-md-3">
+                    <div class="counter-main">
+                        <div class="counter-item">
+                            <div class="number">
+                                <h2 class="data" data-number="39"></h2>
+                            </div>
+                            K
+                        </div>
+                        <h5>Dog Breeding</h5>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-sm-6 col-md-3">
+                    <div class="counter-main">
+                        <div class="counter-item">
+                            <div class="number-diu">
+                                <h2 class="data" data-number="45"></h2>
+                            </div>
+                            +
+                        </div>
+                        <h5>Years Of History</h5>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================================
+    COUNTER PART END
+    =====================================-->
+
+
+    <!-- =================================
+     MEET PART START
+    =====================================-->
+    <section id="meet">
+        <div class="container">
+            <img class="paw" src="images/pawprint.png" alt="pawprint.png">
+            <h4>Meet the animals</h4>
+            <h3>Puppies Waiting for Adoption</h3>
+            <h6>
+                The best overall dog DNA test is Embark Breed & Health Kit (view at Chewy), which provides you with a
+                breed brwn and information Most dogs
+            </h6>
+            <div class="dogs-slider">
+                <div class="dogs-item">
+                    <div class="img">
+                        <img src="images/adop_img01.png" alt="adop_img01">
+                        <span class="free">Free</span>
+                    </div>
+                    <div class="text">
+                            <p><i class="fa-solid fa-calendar"></i> Birth : 2021 </p>
+                            <h5>Siberian Husky</h5>
+                            <p>The German Shepherd is a breed of medium to large-sized.</p>
+                            <a href="#" class="slick-arrow" style="display: inline;">Read More <img class="pawo" src="images/pawprint.png" alt=""></a>
+                        </div>
+                    </div>
+                <div class="dogs-item">
+                    <div class="img">
+                        <img src="images/adop_img02.png" alt="adop_img01">
+                        <span class="free">Free</span>
+                    </div>
+                    <div class="text">
+                            <p><i class="fa-solid fa-calendar"></i> Birth : 2021 </p>
+                            <h5>Golden Retriever</h5>
+                            <p>The Golden Retriever is a medium-large gun dog that was bred.</p>
+                            <a href="#" class="slick-arrow" style="display: inline;">Read More <img class="pawo" src="images/pawprint.png" alt=""></a>
+                        </div>
+                    </div>
+                <div class="dogs-item">
+                    <div class="img">
+                        <img src="images/adop_img03.png" alt="adop_img01">
+                        <span class="free">Free</span>
+                    </div>
+                    <div class="text">
+                            <p><i class="fa-solid fa-calendar"></i> Birth : 2021 </p>
+                            <h5>German Sharped</h5>
+                            <p>The Golden Retriever is a medium-large gun dog that was bred.</p>
+                            <a href="#" class="slick-arrow" style="display: inline;">Read More <img class="pawo" src="images/pawprint.png" alt=""></a>
+                        </div>
+                    </div>
+                <div class="dogs-item">
+                    <div class="img">
+                        <img src="images/adop_img04.png" alt="adop_img01">
+                        <span class="free">Free</span>
+                    </div>
+                    <div class="text">
+                            <p><i class="fa-solid fa-calendar"></i> Birth : 2021 </p>
+                            <h5>Siberian Husky</h5>
+                            <p>The Golden Retriever is a medium-large gun dog that was bred.</p>
+                            <a href="#" class="slick-arrow" style="display: inline;">Read More <img class="pawo" src="images/pawprint.png" alt=""></a>
+                        </div>
+                    </div>
+                <div class="dogs-item">
+                    <div class="img">
+                        <img src="images/adop_img05.png" alt="adop_img01">
+                        <span class="free">Free</span>
+                    </div>
+                    <div class="text">
+                            <p><i class="fa-solid fa-calendar"></i> Birth : 2021 </p>
+                            <h5>French Bulldog</h5>
+                            <p>The Golden Retriever is a medium-large gun dog that was bred.</p>
+                            <a href="#" class="slick-arrow" style="display: inline;">Read More <img class="pawo" src="images/pawprint.png" alt=""></a>
+                        </div>
+                    </div>
+               
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================================
+     MEET PART END
+    =====================================-->
+
+
+    <!-- =================================
+    TESTI PART START
+    =====================================-->
+    <section id="testi2">
+            <div class="row">
+                <div class="col-lg-5 col-md-5">
+                    <div class="dog-left">
+                     <img src="images/s_faq_img.jpg" alt="s_faq_img">
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7">
+                    <div class="tes-right dog-right">
+                        <h4>FAQ Question</h4>
+                        <h3>History & Family Adoption</h3>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Working for dog adoption <i class="bi bi-plus plus"></i> <i
+                                            class="bi bi-dash das"></i>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p> The best overall dog DNA test is embark breed & health Kit (view atths
+                                            Chewy), which provides you with a breed brwn and ition on provides ancestors
+                                            most dogs.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Competitions & Awards <i class="bi bi-plus plus"></i> <i
+                                            class="bi bi-dash das"></i>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p> The best overall dog DNA test is embark breed & health Kit (view atths
+                                            Chewy), which provides you with a breed brwn and ition on provides ancestors
+                                            most dogs.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        The puppies are 3 months old <i class="bi bi-plus plus"></i> <i
+                                            class="bi bi-dash das"></i>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p> The best overall dog DNA test is embark breed & health Kit (view atths
+                                            Chewy), which provides you with a breed brwn and ition on provides ancestors
+                                            most dogs.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="tfshape" src="images/footer_shape02.png" alt="footer_shape01.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================================
+    TESTI PART END
+    =====================================-->
+
+    <!-- =================================
+    TESTI PART END
+    =====================================-->
+<section id="Meet-Adoption2">
+    <div class="container">
+       <div class="row">
+           <div class="col-lg-6 col-md-6">
+                 <div class="left">
+        <h4>Meet Adoption</h4>
+        <h3>Work For <span>Adoption</span> Happy Time</h3>
+        <p>The best overall dog DNA test is Embark Breed & Health Kit view at Chewy which pres domesti dog is a sticated descendant.</p>
+        <h6><i class="fa-solid fa-check"></i> Embark Breed & Health</h6>
+        <h6><i class="fa-solid fa-check"></i> The domestic dog is a domesticated</h6>
+    </div>
+           </div>
+           <div class="col-lg-6 col-md-6">
+               <div class="verticle-dogs">
+                   <div class="verticle-item">
+                       <img src="images/breeder_gallery01.jpg" alt="breeder_gallery01.jpg">
+                   </div>
+                   <div class="verticle-item">
+                       <img src="images/breeder_gallery02.jpg" alt="breeder_gallery01.jpg">
+                   </div>
+                   <div class="verticle-item">
+                       <img src="images/breeder_gallery03.jpg" alt="breeder_gallery01.jpg">
+                   </div>
+                   <div class="verticle-item">
+                       <img src="images/breeder_gallery04.jpg" alt="breeder_gallery01.jpg">
+                   </div>
+               </div>
+           </div>
+       </div>
+</div>
+</section>
+    <!-- =================================
+    TESTI PART END
+    =====================================-->
+
+    <!-- =================================
+     FOOTER PART START
+    =====================================-->
+    <section id="footer">
+        <img class="duck1" src="images/footer_shape01.png" alt="footer_shape01">
+        <img class="duck2" src="images/footer_shape02.png" alt="footer_shape01">
+        <img class="f-bg" src="images/testi_bg_shape01.png" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-7 col-md-6">
+                    <div class="left-foot">
+                        <img src="images/logo.png" alt="">
+                        <p>The best overall dog DNA test Embark Breed & Health Kit (view at Chewy) which provides
+                            overall dog you.</p>
+                        <h4><i class="fas fa-quote-right"></i>747-800-9880</h4>
+                        <span>Call Now</span>
+                        <div class="icons">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-vimeo-v"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-5 col-md-6">
+                    <div class="mid-item">
+                        <h4>Our Policies</h4>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms and Conditions</a></li>
+                            <li><a href="#">Editorial Policy</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                            <li><a href="#">IP Policy</a></li>
+                            <li><a href="#">Grievance Redressal Policy</a></li>
+                            <li><a href="#">Our Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-5 col-md-6">
+                    <div class="mid-item">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><a href="#">Our Breeder</a></li>
+                            <li><a href="#">Our Adoption</a></li>
+                            <li><a href="#">Editorial Policy</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                            <li><a href="#">Grievance Policy</a></li>
+                            <li><a href="#">Redressal Policy</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-7 col-md-6">
+                    <h4 class="f-last4">Instagram</h4>
+                    <div class="dog-main">
+                        <div class="dog-item">
+                            <img src="images/insta_img01.png" alt="insta_img01">
+                        </div>
+                        <div class="dog-item">
+                            <img src="images/insta_img02.png" alt="insta_img01">
+                        </div>
+                        <div class="dog-item">
+                            <img src="images/insta_img03.png" alt="insta_img01">
+                        </div>
+                        <div class="dog-item">
+                            <img src="images/insta_img04.png" alt="insta_img01">
+                        </div>
+                        <div class="dog-item">
+                            <img src="images/insta_img05.png" alt="insta_img01">
+                        </div>
+                        <div class="dog-item">
+                            <img src="images/insta_img06.png" alt="insta_img01">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================================
+    FOOTER PART END
+    =====================================-->
+<div class="up">
+    <i class="fas fa-angle-up topper"></i>
+</div>
+    <!-- =================================
+    COPY PART START
+    =====================================-->
+    <section id="copy">
+        <img class="tew" src="images/testi_bg_shape01.png" alt="">
+        <div class="container">
+<div class="ccc">
+    <div class="left">
+        <p>Copyright © 2021 Petco. All Rights Reserved.</p>
+    </div>
+            <div class="copy-right">
+                <img class="flag" src="images/united-states.png" alt="">
+                <span>English <i class="fas fa-angle-up app"></i></span>
+            </div>
+</div>
+        </div>
+    </section>
+    <!-- =================================
+    COPY PART END
+    =====================================-->
+
+
+
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.rollNumber.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

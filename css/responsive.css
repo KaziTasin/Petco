@@ -1,0 +1,2516 @@
+@media (min-width: 320px) and (max-width: 575px) {
+
+    header {
+        width: 100%;
+    }
+    header span {
+        display: block;
+        margin: 10px 0;
+    }
+    header span .clock {
+        margin: 0;
+        margin-right: 10px;
+    }
+    header .icon {
+        float: none;
+        text-align: right;
+        display: inline;
+        position: static;
+    }header .folo {
+        float: none;
+        display: inline;
+        margin-right: 10px;
+    }
+
+    nav .right i .s-box {
+        display: none;
+    }
+    .nav-fix::after {display: none;
+    }
+    
+    .offcanvas-top {
+        display: none;
+    }
+    nav .bar{
+        color: #f04336;
+        font-size: 30px;
+    }
+    .navbar-toggler:focus {
+       box-shadow: none;
+       background: transparent;
+    }
+    nav .right i {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav {
+        margin-left: 11px;
+        margin-top: 25px;
+    }
+    nav ul li .drop-down {
+        width: 177px;
+        top: 30px;
+        left: 100px;
+    }
+    nav ul .drop:hover .drop-down {
+        top: -20%;
+    }nav ul .nav-item .nav-link::after {
+        top: 3px;
+        left: -16px;
+        width: 35%;
+    }
+    #banner .banner-item {
+        height: 550px;
+    }
+    #banner .slick-active .banner-text h2 span::after {
+        top: 4px;
+        left: -8px;
+    }
+    #banner .slick-active .banner-text h2 {
+        font-size: 30px;
+        line-height: 40px;
+        width: 327px;
+    }
+    #banner .slick-active .banner-text p {
+        line-height: 28px;
+        top: 265px;
+        width: 300px;
+        animation: ppp 1.5s;
+    }
+    @keyframes ppp {
+      from {
+        top: 300px;
+      }
+      to {
+        top: 265px;
+      }
+    }#banner .shape3 {
+        left: 70%;
+    }
+    #find {
+        top: -45px;
+    }
+    #find .find-main {
+        height: 400px;
+        flex-direction: column;
+    }
+      #find .find-main .find-item {
+        height: 80px;
+        width: 100%;
+        padding: 30px 0;
+        border-bottom: 1px solid #fff;
+      }
+      #find .find-main .f-item {
+        height: 80px;
+        width: 100%;
+        padding: 35px 0 !important;
+        clip-path: none;
+    }#find .find-main .find-item:last-child {
+        width: 100%;
+    }
+    #find .find-main .find-item .pets {
+        padding: 20px 5px;
+        right: 90px;
+        bottom: -10%;
+    }#counter {
+        padding: 120px 0;
+        top: -50px;
+        padding-bottom: 80px;
+    }
+    #counter h3 {
+        font-size: 32px;
+        padding: 0;
+    }#counter .counter-main {
+        text-align: center;
+        border: 1px solid #000;
+        padding: 22px 0;
+        border-bottom: 0;
+        margin: 10px 0;
+    }
+    #counter .counter-main:last-child{
+        border-bottom: 1px solid #000;
+    }
+    #happy h3 {
+        font-size: 32px;
+        width: auto;
+    }#happy h6 {
+        width: auto;
+        margin: 20px 0;
+    }
+    #happy .happy-right {
+        top: 25px;
+    }#availeable {
+        margin: 60px 0;
+    }
+    #availeable h3 {
+        font-size: 32px;
+    }#availeable h6 {
+        padding: 0;
+    }#availeable .bshape1 {
+        top: -60px;
+    }
+    #availeable .bshape2 {
+        top: 9px;
+    }
+    #availeable .abale-main .abale-item {
+        margin: 0;
+    }
+    #availeable .abale-main .abale-item img{
+        width: 100%;
+    }
+    #availeable .abale-main .abale-item .able-text {
+        left: 25px;
+        bottom: 100px;
+    }#availeable .abale-main .babu {
+        display: none !important;
+    }
+    #availeable .able-right {
+        margin-top: 0;
+    }
+    #availeable .able-right h4 {
+        font-size: 32px;
+    }
+    #testi .tes-left {
+        width: 270px;
+        left: -86px;
+    }
+    #testi .tes-left .tv-image {
+        width: 72%;
+        height: 64%;
+        top: 31%;
+        left: 6%;
+        z-index: -1;
+    }
+    #testi .tes-left .tv-image img{
+        width: 100%;
+    }
+    #testi .my-video-links {
+        top: 84px;
+        right: 4%;
+        width: 50px;
+        height: 50px;
+    }
+    #testi .tes-right .accordion-item h2 button i {
+        right: 20px;
+    }
+    #testi .tes-right .accordion-item h2 button i::after {
+        left: 0;
+    }
+    #testi .tes-right {
+        margin-left: -92px;
+        width: 270px;
+    }
+    #testi .tes-right h3 {
+        font-size: 32px;
+    }
+    #testi .tes-right .tfshape {
+        display: none;
+    }
+    #meet h3 {
+        font-size: 32px;
+    }
+    #meet h6 {
+        padding: 0;
+    }
+    #meet .meet-item {
+        width: 100%;
+        height: 150px;
+        left: 0;
+    }
+    #meet .meet-item p span i {
+        margin: 0 6px;
+    }
+    #customer h3 {
+        font-size: 32px;
+    }
+    #customer h6 {
+        padding: 0;
+    }
+    #customer .tes-main .tes-item .tes-slide {
+        height: 370px;
+        margin: 0;
+    }
+    #customer .tes-main .tes-item .tes-slide {
+        display: block;
+        background: #fff;
+        border-radius: 10px;
+    }
+    #customer .tes-main .tes-item .tes-slide .text {
+        width: 100%;
+    }
+    #update h3 {
+        font-size: 32px;
+    }
+    #update h6 {
+        padding: 0;
+    }
+    #news .news-main{
+        text-align: center;
+    }
+    #news .news-main h3 {
+        font-size: 32px;
+        padding-left: 0;
+    }
+    #news .news-main p{
+        padding-left: 0;
+    }
+    #news .news-main input {
+        margin: 30px 0;
+    }
+    #news .newsletter_shape01 {
+        display: none;
+    }
+    #news .newsletter_shape02 {
+        display: none;
+    }
+#footer .mid-item{
+    margin: 30px 0;
+}#footer .mid-item h4 {
+	margin-bottom: 15px;
+}
+#footer .duck1 {
+	display: none;
+}
+#footer .duck2 {
+	display: none;
+}
+#copy .left {
+	width: 100%;
+	text-align: center;
+}
+#copy .copy-right {
+	display: none;
+}
+#banner .shop-item {
+	padding: 100px 0;
+}
+#shop-details .shop-right h4 {
+	margin: 25px 0;
+}
+#shop-details .shop-right .shop-head span {
+	margin-left: 0;
+}
+#shop-details .shop-right .shop-head .bars {
+	margin-bottom: 10px;
+}
+#shop-details .shop-right .shop-head select{
+    margin: 5px 20px;
+}
+#shop-details .shop-right .shop-head .last-span {
+	margin-left: 0;
+	display: block;
+}
+#shop-details .shop-right .picci {
+	margin: 10px 0 !important;
+}
+
+#knit .choto-img .choto {
+	width: 70px;
+}
+#knit .right-text{
+    margin-top: 20px;
+}#knit .right-text .nember a {
+	margin: 0;
+	padding: 3px 26px;
+    line-height: 19px;
+}
+#knit .right-text .nember {
+	margin-bottom: 20px;
+}
+#knit .right-text h6 p {
+	margin-top: 0;
+}
+#Meet-Adoption h3 {
+	font-size: 32px;
+}
+#Meet-Adoption h6 {
+	font-size: 14px;
+}
+#coun2 {
+    padding: 120px 0;
+    top: -50px;
+    padding-bottom: 80px;
+}
+#coun2 h3 {
+    font-size: 32px;
+    padding: 0;
+}#coun2 .counter-main {
+    text-align: center;
+    border: 1px solid #000;
+    padding: 22px 0;
+    border-bottom: 0;
+}
+#coun2 .counter-main:last-child{
+    border-bottom: 1px solid #000;
+}
+#testi2 {
+	padding: 50px 0;
+}
+#testi2 .dog-left {
+	position: static;
+	width: 100%;
+}
+#testi2 .tes-right h3 {
+	font-size: 32px;
+}
+#testi2 .tes-right .accordion-item h2 button i {
+	right: 2px;
+}
+#testi2 .tes-right .accordion-item h2 button i::after {
+	width: 35px;
+	height: 35px;
+	top: 2px;
+	left: 1px;
+}
+#testi2 .tes-right .tfshape {
+	display: none;
+}
+#Meet-Adoption2 h3 {
+	font-size: 32px;
+}
+#Meet-Adoption2 .slick-slide img {
+	object-fit: cover;
+	width: 100%;
+}
+#bio .bio-right form input {
+	width: 100%;
+}
+#bio .bio-right form .loca {
+	top: 26.5%;
+}
+#bio .bio-right form .plate {
+	top: 38%;
+	left: 16%;
+}
+#bio .bio-right form .whi {
+	width: 48%;
+}
+#bio .bio-right form .dat {
+	width: 48%;
+}
+#bio .bio-right form .cal {
+	left: 53%;
+}
+#blog .blog-left .blog-item .blog-text h3 {
+	font-size: 28px;
+}
+#blog .blog-left .blog-comment::after {
+	top: 50px;
+}
+#blog .blog-item .indor{
+    margin: 10px 0;
+}
+#blog .blog-left .thomas {
+	padding: 30px 10px;
+}
+#blog .blog-left .thomas .t-text {
+	width: 60%;
+}
+#blog .blog-left .thomas .t-img {
+	width: 35%;
+}
+#blog .blog-left .t-aa {
+	display: block;
+}
+#blog .blog-left .t-aa .p-n {
+	width: 100%;
+}
+#blog .blog-left .t-aa .p-p {
+	width: 100%;
+}
+#blog .blog-left .leave-form {
+	padding: 40px 20px;
+}
+#blog .blog-left .leave-form .author {
+	width: 45%;
+}
+#blog .blog-left .leave-form .author {
+	width: 45%;
+}
+#talk .talk-left h2 {
+	font-size: 29px;
+}
+#talk .talk-right {
+	padding: 30px 10px;
+	width: 100%;
+    margin-left: 0;
+}
+#talk .talk-right p i {
+	margin-right: 10px;
+}
+#news .news-main {
+    border: 0;
+}
+
+    /* =================================================== */
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    header {
+        width: 100%;
+    }
+    header span {
+        display: block;
+        margin: 10px 0;
+    }
+    header span .clock {
+        margin: 0;
+        margin-right: 10px;
+    }
+    header .icon {
+        float: none;
+        text-align: right;
+        display: inline;
+        position: static;
+    }header .folo {
+        float: none;
+        display: inline;
+        margin-right: 10px;
+    }
+
+    nav .right i .s-box {
+        display: none;
+    }
+    nav .right::after {
+      display: none;
+    }
+    .nav-fix::after {display: none;
+    }
+    
+    .offcanvas-top {
+        display: none;
+    }
+    nav .bar{
+        color: #f04336;
+        font-size: 30px;
+    }
+    .navbar-toggler:focus {
+       box-shadow: none;
+       background: transparent;
+    }
+    nav .right i {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav {
+        margin-left: 11px;
+        margin-top: 25px;
+    }
+    nav ul li .drop-down {
+        width: 200px;
+        top: 30px;
+        left: 100px;
+    }
+    nav ul .drop:hover .drop-down {
+        top: -20%;
+    }nav ul .nav-item .nav-link::after {
+        top: 3px;
+        left: -16px;
+        width: 20%;
+    }
+    #banner .banner-item {
+        height: 550px;
+    }
+    #banner .slick-active .banner-text h2 span::after {
+        top: 4px;
+        left: -8px;
+    }
+    #banner .slick-active .banner-text h2 {
+        font-size: 40px;
+        line-height: 42px;
+        width: 373px;
+    }
+    #banner .slick-active .banner-text p {
+        line-height: 28px;
+        top: 265px;
+        width: 300px;
+        animation: ppp 1.5s;
+    }
+    @keyframes ppp {
+      from {
+        top: 300px;
+      }
+      to {
+        top: 265px;
+      }
+    }#banner .shape3 {
+        left: 70%;
+    }
+    #find {
+        top: -45px;
+    }
+    #find .find-main {
+        height: 400px;
+        flex-direction: column;
+    }
+      #find .find-main .find-item {
+        height: 80px;
+        width: 100%;
+        padding: 30px 0;
+        border-bottom: 1px solid #fff;
+      }
+      #find .find-main .f-item {
+        height: 80px;
+        width: 100%;
+        padding: 35px 0 !important;
+        clip-path: none;
+    }#find .find-main .find-item:last-child {
+        width: 100%;
+    }
+    #find .find-main .find-item .pets {
+        padding: 20px 5px;
+        right: 50%;
+        bottom: -10%;
+        transform: translateX(50%);
+    }#counter {
+        padding: 120px 0;
+        top: -50px;
+        padding-bottom: 80px;
+    }
+    #counter h3 {
+        font-size: 32px;
+        padding: 0;
+    }#counter .counter-main {
+        text-align: center;
+        border: 1px solid #000;
+        padding: 22px 0;
+        border-bottom: 0;
+        margin: 10px 0;
+    }
+    #counter .counter-main:last-child{
+        border-bottom: 1px solid #000;
+    }
+    #happy h3 {
+        font-size: 32px;
+        width: auto;
+    }#happy h6 {
+        width: auto;
+        margin: 20px 0;
+    }
+    #happy .happy-right {
+        top: 25px;
+    }#availeable {
+        margin: 60px 0;
+    }
+    #availeable h3 {
+        font-size: 32px;
+    }#availeable h6 {
+        padding: 0;
+    }#availeable .bshape1 {
+        top: -60px;
+    }
+    #availeable .bshape2 {
+        top: 9px;
+    }
+    #availeable .abale-main .abale-item {
+        margin: 0;
+        height: 308px;
+    }
+    #availeable .abale-main .abale-item img {
+        width: 100%;
+        margin: 0 10px;
+    }
+    #availeable .abale-main .abale-item .able-text {
+        left: 9px;
+        bottom: 48px;
+    }
+    #availeable .able-right {
+        margin-top: 0;
+        width: 100%;
+        height: 345px;
+    }
+    #availeable .able-right h4 {
+        font-size: 32px;
+    }
+    #testi {
+        padding: 100px 20px;
+        z-index: 9;
+    }
+    #testi .tes-left {
+        width: 400px;
+        left: 0;
+    }
+    #testi .tes-left .tv-image {
+        width: 72%;
+        height: 64%;
+        top: 31%;
+        left: 6%;
+        z-index: -1;
+    }
+    #testi .tes-left .tv-image img{
+        width: 100%;
+    }
+    #testi .my-video-links {
+        top: 131px;
+        right: 4%;
+        width: 70px;
+        height: 70px;
+    }
+    #testi .tes-right .tfshape {
+     z-index: -1;
+    }
+    #testi .tes-right {
+        margin-left: 0;
+        width: 100%;
+    }
+    #testi .tes-right h3 {
+        font-size: 32px;
+    }
+    #meet h3 {
+        font-size: 32px;
+    }
+    #meet h6 {
+        padding: 0;
+    }
+    #meet .meet-item {
+        width: 100%;
+        height: 160px;
+        left: 0;
+    }
+    #meet .meet-item .free {
+        display: block;
+    }
+    #meet .meet-item::after {
+       top: 105px;
+    }
+    #meet .meet-item p span i {
+        margin: 0 6px;
+    }
+    #customer h3 {
+        font-size: 32px;
+    }
+    #customer h6 {
+        padding: 0;
+    }
+    #customer .tes-main .tes-item .tes-slide {
+        height: 370px;
+        margin: 0;
+    }
+    #customer .tes-main .tes-item .tes-slide {
+        display: block;
+        background: #fff;
+        border-radius: 10px;
+        margin: 0 10px;
+        height: 415px;
+    }
+    #update .up-text {
+        padding: 30px 0;
+    }
+    #customer .tes-main .tes-item .tes-slide .text {
+        width: 100%;
+    }
+    #update h3 {
+        font-size: 32px;
+    }
+    #update h6 {
+        padding: 0;
+    }
+    #news .news-main button {
+        margin-top: 20px;
+    }
+    #news .news-main{
+        text-align: center;
+    }
+    #news .news-main h3 {
+        font-size: 32px;
+        padding-left: 0;
+    }
+    #news .news-main p{
+        padding-left: 0;
+    }
+    #news .news-main input {
+        margin: 30px 0;
+    }
+    #news .newsletter_shape01 {
+        display: none;
+    }
+    #news .newsletter_shape02 {
+        display: none;
+    }
+#footer .mid-item{
+    margin: 30px 0;
+}#footer .mid-item h4 {
+	margin-bottom: 15px;
+}
+#footer .duck1 {
+	display: none;
+}
+#footer .duck2 {
+	display: none;
+}
+#copy .left {
+	width: 100%;
+	text-align: center;
+}
+#copy .copy-right {
+	display: none;
+}
+#banner .shop-item {
+	padding: 100px 0;
+}
+#shop-details .details-left img{
+    width: 100%;
+}
+#shop-details .details-left .bbb {
+	margin-left: 7px;
+    padding: 10px 15px;
+}
+#shop-details .shop-right h4 {
+	margin: 25px 0;
+}
+#shop-details .shop-right .shop-head span {
+	margin-left: 0;
+}
+#shop-details .shop-right .shop-head .bars {
+	margin-bottom: 10px;
+}
+#shop-details .shop-right .shop-head select{
+    margin: 5px 20px;
+}
+#shop-details .shop-right .shop-head .last-span {
+	margin-left: 0;
+	display: block;
+}
+#shop-details .shop-right .picci {
+	margin: 10px 0 !important;
+}
+
+#knit .choto-img .choto {
+	width: 70px;
+}
+#knit .right-text{
+    margin-top: 20px;
+}#knit .right-text .nember a {
+	margin: 0 10px;
+	padding: 12px 26px;
+	line-height: 19px;
+}
+.product-slider .slick-slide{
+	margin: 0 10px;
+	width: 100%;
+}
+.product-slider .slick-slide img{
+    width: 100%;
+}
+#knit .right-text .nember {
+	margin-bottom: 20px;
+}
+#knit .right-text h6 p {
+	margin-top: 0;
+}
+#Meet-Adoption .bred-slider .bred-item {
+	margin: 0 10px;
+    height: 300px;
+}
+#Meet-Adoption h3 {
+	font-size: 32px;
+}
+#Meet-Adoption h6 {
+	font-size: 14px;
+}
+#coun2 {
+    padding: 120px 0;
+    top: -50px;
+    padding-bottom: 80px;
+}
+#coun2 h3 {
+    font-size: 32px;
+    padding: 0;
+}#coun2 .counter-main {
+    text-align: center;
+    border: 1px solid #000;
+    padding: 22px 0;
+    border-bottom: 0;
+    margin: 10px 0;
+}
+#coun2 .counter-main:last-child{
+    border-bottom: 1px solid #000;
+}
+#testi2 {
+	padding: 50px 20px;
+}
+#testi2 .dog-left {
+	position: static;
+	width: 100%;
+}
+#testi2 .tes-right h3 {
+	font-size: 32px;
+}
+#testi2 .tes-right .accordion-item h2 button i {
+	right: 15px;
+}
+#testi2 .tes-right .accordion-item h2 button i::after {
+	width: 35px;
+	height: 35px;
+	top: 2px;
+	left: 0px;
+}
+#testi2 .tes-right .tfshape {
+	display: none;
+}
+#Meet-Adoption2 h3 {
+	font-size: 32px;
+}
+#Meet-Adoption2 .slick-slide img {
+	object-fit: cover;
+	width: 100%;
+}
+#bio .bio-right form input {
+	width: 100%;
+}
+#bio .bio-right form .loca {
+	top: 152px;
+}
+#bio .bio-right form .plate {
+	top: 38%;
+}
+#bio .bio-right form .whi {
+	width: 49%;
+}
+#bio .bio-right form .dat {
+	width: 48%;
+}
+#bio .bio-right form .cal {
+	left: 52%;
+}
+#blog .blog-left .blog-item .blog-text h3 {
+	font-size: 28px;
+}
+#blog .blog-left .blog-comment::after {
+	top: 50px;
+}
+#blog .blog-item .indor{
+    margin: 10px 0;
+}
+#blog .blog-left .thomas {
+	padding: 30px 10px;
+}
+#blog .blog-left .thomas .t-text {
+	width: 60%;
+}
+#blog .blog-left .thomas .t-img {
+	width: 35%;
+}
+#blog .blog-left .t-aa {
+	display: flex;
+}
+#blog .blog-left .t-aa .p-n {
+	width: 50%;
+}
+#blog .blog-left .t-aa .p-p {
+	width: 50%;
+}
+#blog .blog-left .leave-form {
+	padding: 40px 20px;
+}
+#blog .blog-left .leave-form .author {
+	width: 45%;
+}
+#blog .blog-left .leave-form .author {
+	width: 45%;
+}
+#talk .talk-right p span {
+	width: 86%;
+}
+#talk .talk-left h2 {
+	font-size: 29px;
+}
+#talk .talk-right {
+	padding: 30px 10px;
+	width: 100%;
+    margin-left: 0;
+}
+#talk .talk-right p i {
+	margin-right: 10px;
+}
+#news .news-main {
+    border: 0;
+}
+
+    /* =================================================== */
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    header {
+        width: 100%;
+    }
+    header span {
+        display: inline-block;
+        margin: 10px 0;
+    }
+    header span .clock {
+        margin: 0;
+        margin-right: 10px;
+    }
+    header .icon {
+        float: none;
+        text-align: right;
+        display: inline;
+        position: static;
+    }header .folo {
+        float: none;
+        display: inline;
+        margin-right: 10px;
+    }
+header .ooo{
+    margin: 8px;
+}
+    nav .right i .s-box {
+     top: -1200px;
+    }
+    nav .right i .arman {
+        top: -380px;
+        left: 40%;
+    }
+    nav .right::after {
+      display: none;
+    }
+    .nav-fix::after {display: none;
+    }
+    
+    .offcanvas-top {
+       display: block;
+    }
+    nav .bar{
+        color: #f04336;
+        font-size: 30px;
+    }
+    .navbar-toggler:focus {
+       box-shadow: none;
+       background: transparent;
+    }
+    nav .right i {
+        display: block;
+    }
+    .navbar-expand-lg .navbar-nav {
+        margin-left: 11px;
+        margin-top: 25px;
+    }
+    nav ul li .drop-down {
+        width: 200px;
+        top: 30px;
+        left: 100px;
+    }
+    nav ul .drop:hover .drop-down {
+        top: -20%;
+    }nav ul .nav-item .nav-link::after {
+        top: 3px;
+        left: -21px;
+        width: 16%;
+    }
+    #banner .banner-item {
+        height: 650px;
+    }
+    #banner .slick-active .banner-text h2 span::after {
+        top: 4px;
+        left: -15px;
+    }
+    #banner .slick-active .banner-text h2 {
+        font-size: 61px;
+        line-height: 80px;
+        width: 100%;
+    }
+    #banner .slick-active .banner-text p {
+        line-height: 28px;
+        top: 345px;
+        width: 70%px;
+        animation: ppp 1.5s;
+    }
+    @keyframes ppp {
+      from {
+        top: 450px;
+      }
+      to {
+        top: 345px;
+      }
+    }
+    #banner .slick-active .banner-text button {
+        top: 450px;
+        animation: bbb 1.9s;
+      }
+      @keyframes bbb {
+        from {
+          top: 576px;
+        }
+        to {
+          top: 450px;
+        }
+      }
+    #banner .shape3 {
+        left: 70%;
+    }
+    #find {
+        top: -45px;
+    }
+      #find .find-main .find-item {
+        width: 20%;
+        padding: 30px 0;
+      }
+      #find .find-main .f-item {
+        width: 20%;
+        padding: 35px 0 !important;
+    }
+    #find .find-main .find-item .pets {
+        padding: 20px 5px;
+        position: static;
+        width: 100%;
+    }#counter {
+        padding: 120px 0;
+        top: -50px;
+        padding-bottom: 80px;
+    }
+    #counter h3 {
+        font-size: 42px;
+        padding: 0;
+    }#counter .counter-main {
+        text-align: center;
+        border: 1px solid #000;
+        padding: 22px 0;
+        border-bottom: 0;
+        margin: 10px 0;
+    }
+    #counter .counter-main:last-child{
+        border-bottom: 1px solid #000;
+    }
+    #happy h3 {
+        font-size: 32px;
+        width: auto;
+    }#happy h6 {
+        width: auto;
+        margin: 20px 0;
+    }
+    #happy .happy-right {
+        top: 25px;
+    }#availeable {
+        margin: 60px 0;
+    }
+    #availeable h3 {
+        font-size: 42px;
+    }#availeable h6 {
+        padding: 0;
+    }#availeable .bshape1 {
+        top: -60px;
+    }
+    #availeable .bshape2 {
+        top: 9px;
+    }
+    #availeable .abale-main .abale-item {
+        margin: 0;
+        height: 308px;
+    }
+    #availeable .abale-main .abale-item img {
+        width: 100%;
+        margin: 0 10px;
+    }
+    #availeable .abale-main .abale-item .able-text {
+        left: -23px;
+        bottom: 52px;
+    }
+    #availeable .able-right {
+        margin-top: 47px;
+        width: 100%;
+        height: 265px;
+    }
+    #availeable .able-right h5 {
+        font-size: 16px;
+    }
+    #availeable .able-right h4 {
+        font-size: 22px;
+    }
+    #availeable .able-right p {
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+    #testi {
+        padding: 100px 20px;
+        z-index: 9;
+    }
+    #testi .tes-left {
+        width: 100%;
+        left: 0;
+        margin-top: 100px;
+    }
+    #testi .tes-left .tv-image {
+        width: 72%;
+        height: 64%;
+        top: 31%;
+        left: 6%;
+        z-index: -1;
+    }
+    #testi .tes-left .tv-image img{
+        width: 100%;
+    }
+    #testi .my-video-links {
+        top: 84px;
+        right: 4%;
+        width: 50px;
+        height: 50px;
+    }
+    #testi .tes-right .tfshape {
+     z-index: -1;
+    }
+    #testi .tes-right {
+        margin-left: 0;
+        width: 100%;
+    }
+    #testi .tes-right h3 {
+        font-size: 42px;
+    }
+    #meet h3 {
+        font-size: 42px;
+    }
+    #meet h6 {
+        padding: 0;
+    }
+    #meet .meet-item {
+        width: 90%;
+        height: 160px;
+        left: 5%;
+        padding: 25px 10px;
+    }
+    #meet .meet-item p .husky{
+        width: 80%;
+    }
+    #meet .meet-item::after {
+        top: 90px;
+    }
+    #meet .meet-item p span i {
+        margin: 0 6px;
+    }
+    #customer h3 {
+        font-size: 42px;
+    }
+    #customer h6 {
+        padding: 0;
+    }
+    #customer .tes-main .tes-item .tes-slide {
+        height: 370px;
+        margin: 0;
+    }#customer .tes-main .tes-item .tes-slide {
+        display: block;
+        background: #fff;
+        border-radius: 10px;
+        margin: 0 10px;
+        height: 340px;
+    }
+    #update .up-text {
+        padding: 30px 0;
+    }
+    #customer .tes-main .tes-item .tes-slide .text {
+        width: 100%;
+    }
+    #update h3 {
+        font-size: 32px;
+    }
+    #update h6 {
+        padding: 0;
+    }
+    #news .news-main button {
+        margin-top: 20px;
+    }
+    #news .news-main{
+        text-align: center;
+    }
+    #news .news-main h3 {
+        font-size: 26px;
+        padding-left: 0;
+        margin-top: 32px;
+    }
+    #news .news-main a {
+        padding: 18px 25px;
+    }
+    #news .news-main p{
+        padding-left: 0;
+    }
+    #news .news-main input {
+        margin: 30px 0;
+    }
+    #news .newsletter_shape01 {
+        display: none;
+    }
+    #news .newsletter_shape02 {
+        display: none;
+    }
+#footer .mid-item{
+    margin: 30px 0;
+}#footer .mid-item h4 {
+	margin-bottom: 15px;
+}
+#footer .duck1 {
+	display: none;
+}
+#footer .duck2 {
+	display: none;
+}
+#copy .left {
+	width: 100%;
+	text-align: center;
+}
+#copy .copy-right {
+	display: none;
+}
+#banner .shop-item {
+	padding: 100px 0;
+}
+#shop-details .details-left img{
+    width: 100%;
+}
+#shop-details .details-left .bbb {
+	margin-left: 7px;
+    padding: 10px 15px;
+}
+#shop-details .shop-right h4 {
+	margin: 25px 0;
+}
+#shop-details .shop-right .shop-head span {
+	margin-left: 0;
+}
+#shop-details .shop-right .shop-head .bars {
+	margin-bottom: 10px;
+}
+#shop-details .shop-right .shop-head select{
+    margin: 5px 20px;
+}
+#shop-details .shop-right .shop-head .last-span {
+	margin-left: 0;
+	display: block;
+}
+#shop-details .shop-right .picci {
+	margin: 10px 0 !important;
+}
+
+#knit .choto-img .choto {
+	width: 70px;
+}
+#knit .right-text{
+    margin-top: 20px;
+}#knit .right-text .nember a {
+	margin: 0 4px;
+	padding: 12px 15px;
+	line-height: 15px;
+}
+.product-slider .slick-slide{
+	margin: 0 10px;
+	width: 100%;
+}
+.product-slider .slick-slide img{
+    width: 100%;
+}
+#knit .right-text .nember {
+	margin-bottom: 20px;
+}
+#knit .right-text h6 p {
+	margin-top: 0;
+}
+#Meet-Adoption .bred-slider .bred-item {
+    height: 300px;
+}
+#Meet-Adoption h3 {
+	font-size: 32px;
+}
+#Meet-Adoption h6 {
+	font-size: 14px;
+}
+#Meet-Adoption .able-right {
+	height: 270px;
+	padding: 20px;
+}
+#Meet-Adoption .able-right h5 {
+	font-size: 16px;
+}
+#Meet-Adoption .able-right h4 {
+	font-size: 22px;
+}
+#Meet-Adoption .able-right p {
+	font-size: 14px;
+	line-height: 21px;
+    margin-bottom: 10px;
+}
+#coun2 {
+    padding: 120px 0;
+    top: -50px;
+    padding-bottom: 80px;
+}
+#coun2 h3 {
+    font-size: 32px;
+    padding: 0;
+}#coun2 .counter-main {
+    text-align: center;
+    border: 1px solid #000;
+    padding: 22px 0;
+    border-bottom: 0;
+    margin: 10px 0;
+}
+#coun2 .counter-main:last-child{
+    border-bottom: 1px solid #000;
+}
+#coun2 .counter-main h5 {
+	padding: 0 20px;
+}
+#testi2 {
+	padding: 50px 20px;
+}
+#testi2 .dog-left {
+	position: absolute;
+	width: 50%;
+	object-fit: cover;
+	left: -60px;
+}
+#testi2 .tes-right h3 {
+	font-size: 32px;
+}
+#testi2 .tes-right .accordion-item h2 button i {
+	right: 15px;
+}
+#testi2 .tes-right .accordion-item h2 button i::after {
+	width: 35px;
+	height: 35px;
+	top: 2px;
+	left: 0px;
+}
+#testi2 .tes-right .tfshape {
+	display: none;
+}
+#Meet-Adoption2 h3 {
+	font-size: 32px;
+}
+#Meet-Adoption2 .slick-slide img {
+	object-fit: cover;
+	width: 100%;
+}
+#bio .bio-right form input {
+	width: 100%;
+}
+#bio .bio-right form .loca {
+	top: 152px;
+}
+#bio .bio-right form .plate {
+	top: 38%;
+}
+#bio .bio-right form .whi {
+	width: 49%;
+}
+#bio .bio-right form .dat {
+	width: 48%;
+}
+#bio .bio-right form .cal {
+	left: 52%;
+}
+#blog .blog-left .blog-item .blog-text h3 {
+	font-size: 28px;
+}
+#blog .blog-left .blog-comment::after {
+	top: 50px;
+}
+#blog .blog-item .indor{
+    margin: 10px 0;
+}
+#blog .blog-left .thomas {
+	padding: 30px 10px;
+}
+#blog .blog-left .thomas .t-text {
+	width: 60%;
+}
+#blog .blog-left .thomas .t-img {
+	width: 35%;
+}
+#blog .blog-left .t-aa {
+	display: flex;
+}
+#blog .blog-left .t-aa .p-n {
+	width: 50%;
+}
+#blog .blog-left .t-aa .p-p {
+	width: 50%;
+}
+#blog .blog-left .leave-form {
+	padding: 40px 20px;
+}
+#blog .blog-left .leave-form .author {
+	width: 45%;
+}
+#blog .blog-left .leave-form .author {
+	width: 45%;
+}
+#talk .talk-right p span {
+	width: 86%;
+}
+#talk .talk-left h2 {
+	font-size: 29px;
+}
+#talk .talk-right {
+	padding: 30px 10px;
+	width: 100%;
+    margin-left: 0;
+}
+#talk .talk-right p i {
+	margin-right: 10px;
+}
+#news .news-main {
+    border: 0;
+}
+
+    /* =================================================== */
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    header {
+        width: 100%;
+    }
+    header span {
+        display: inline-block;
+        margin: 10px 0;
+    }
+    header span .clock {
+        margin: 0;
+        margin-right: 10px;
+    }
+    header .icon {
+        float: none;
+        text-align: right;
+        display: inline;
+        position: static;
+    }header .folo {
+        float: none;
+        display: inline;
+        margin: 0;
+        margin-left: 235px;
+    }
+header .ooo{
+    margin: 8px;
+}
+nav{
+    padding: 0 ;
+    margin: 0 ;
+    margin-top: 30px !important;
+}
+    nav .right i .s-box {
+     top: 100px;
+     opacity: 0; 
+     width: 0;
+     height: 0;
+     left: 400px;
+    }
+    nav .right .sea:hover .s-box {
+        top: 82px;
+        opacity: 1;
+        width: 380px;
+        height: 490px;
+        left: -200px;
+    }
+    nav .right::after {
+        left: -5px;
+    }   
+    .offcanvas-top {
+       display: inline-block;
+    }
+    nav ul li {
+        margin: 0 5px;
+        position: relative;
+    }
+    nav .bar{
+        color: #f04336;
+        font-size: 30px;
+    }
+    .navbar-toggler:focus {
+       box-shadow: none;
+       background: transparent;
+    }
+    nav .right i {
+        margin: 0 7px;
+    }nav .adobe {
+        width: 135px;
+    }
+    .navbar-expand-lg .navbar-nav {
+        margin-left: 0;
+        margin-top: 0;
+    }nav img {
+        margin-right: 20px;
+    }
+    nav ul li .drop-down {
+        width: 200px;
+        height: 0;
+    }
+    nav ul .drop:hover .drop-down {
+        top: 70px;
+        height: 120px;
+    }nav ul .nav-item .nav-link::after {
+        top: 3px;
+        left: 0;
+        width: 100%;
+    }
+    .nav-fix {
+        top: -30px;
+    }
+    #banner .h-shape img {
+        top: -30px;
+    }
+    #banner .banner-item {
+        height: 650px;
+    }
+    #banner .slick-active .banner-text h2 span::after {
+        top: 4px;
+        left: -15px;
+    }
+    #banner .slick-active .banner-text h2 {
+        font-size: 61px;
+        line-height: 80px;
+        width: 100%;
+    }
+    #banner .slick-active .banner-text p {
+        line-height: 28px;
+        top: 345px;
+        width: 70%px;
+        animation: ppp 1.5s;
+    }
+    @keyframes ppp {
+      from {
+        top: 450px;
+      }
+      to {
+        top: 345px;
+      }
+    }
+    #banner .slick-active .banner-text button {
+        top: 450px;
+        animation: bbb 1.9s;
+      }
+      @keyframes bbb {
+        from {
+          top: 576px;
+        }
+        to {
+          top: 450px;
+        }
+      }
+    #banner .shape3 {
+        left: 70%;
+    }
+    #find {
+        top: -45px;
+    }
+      #find .find-main .find-item {
+        width: 20%;
+        padding: 59px 0;
+      }
+      #find .find-main .f-item {
+        width: 40%;
+        padding: 59px 0 !important;
+    }
+    #find .find-main .find-item .pets {
+        position: static;
+        width: 100%;
+    }#counter {
+        padding: 120px 0;
+        top: -50px;
+        padding-bottom: 80px;
+    }
+    #counter h3 {
+        font-size: 42px;
+        padding: 0;
+    }#counter .counter-main {
+        text-align: center;
+        border: 1px solid #000;
+        padding: 22px 0;
+        border-bottom: 0;
+        margin: 10px 0;
+    }
+    #counter .counter-main:last-child{
+        border-bottom: 1px solid #000;
+    }
+    #happy h3 {
+        font-size: 32px;
+        width: auto;
+    }#happy h6 {
+        width: auto;
+        margin: 20px 0;
+    }
+    #happy .happy-right {
+        top: 25px;
+    }#availeable {
+        margin: 60px 0;
+    }
+    #availeable h3 {
+        font-size: 42px;
+    }#availeable h6 {
+        padding: 0;
+    }#availeable .bshape1 {
+        top: -60px;
+    }
+    #availeable .bshape2 {
+        top: 9px;
+    }
+    #availeable .abale-main .abale-item {
+        margin: 0;
+        height: 308px;
+    }
+    #availeable .abale-main .abale-item img {
+        width: 100%;
+        margin: 0 10px;
+    }
+    #availeable .abale-main .abale-item .able-text {
+        left: 9px;
+        bottom: 48px;
+    }
+    #availeable .able-right {
+        margin-top: 47px;
+        width: 100%;
+        height: 370px;
+    }
+    #availeable .able-right h4 {
+        font-size: 32px;
+    }
+    #testi {
+        padding: 100px 20px;
+        z-index: 9;
+    }
+    #testi .tes-left {
+        width: 100%;
+        left: 0;
+        margin-top: 100px;
+    }
+    #testi .tes-left .tv-image {
+        width: 72%;
+        height: 64%;
+        top: 31%;
+        left: 6%;
+        z-index: -1;
+    }
+    #testi .tes-left .tv-image img{
+        width: 100%;
+    }
+    #testi .my-video-links {
+        top: 33%;
+        right: 3%;
+        width: 70px;
+        height: 70px;
+    }
+    #testi .tes-right .tfshape {
+     z-index: -1;
+    }
+    #testi .tes-right {
+        margin-left: 0;
+        width: 100%;
+    }
+    #testi .tes-right h3 {
+        font-size: 42px;
+    }
+    #meet h3 {
+        font-size: 42px;
+    }
+    #meet h6 {
+        padding: 0;
+    }
+    #meet .meet-item {
+        width: 93%;
+        height: 160px;
+        left: 4%;
+        padding: 25px 10px;
+    }
+    #meet .meet-item p .husky {
+        width: 69%;
+    }
+    #meet .meet-item::after {
+        top: 90px;
+    }
+    #meet .meet-item p span i {
+        margin: 0 6px;
+    }
+    #customer h3 {
+        font-size: 42px;
+    }
+    #customer h6 {
+        padding: 0;
+    }
+    #customer .tes-main .tes-item .tes-slide {
+        height: 370px;
+        margin: 0;
+    }#customer .tes-main .tes-item .tes-slide {
+        display: block;
+        border-radius: 10px;
+        margin: 0 10px;
+        height: 340px;
+    }
+    #update .up-text {
+        padding: 30px 0;
+    }
+    #customer .tes-main .tes-item .tes-slide .text {
+        width: 100%;
+    }
+    #update h3 {
+        font-size: 32px;
+    }
+    #update h6 {
+        padding: 0;
+    }
+    #news .news-main button {
+        margin-top: 20px;
+    }
+    #news .news-main{
+        text-align: center;
+    }
+    #news .news-main h3 {
+        font-size: 26px;
+        padding-left: 0;
+        margin-top: 32px;
+    }
+    #news .news-main p{
+        padding-left: 0;
+    }
+    #news .news-main input {
+        margin: 30px 0;
+    }
+    #news .newsletter_shape01 {
+        display: none;
+    }
+    #news .newsletter_shape02 {
+        display: none;
+    }
+#footer .mid-item{
+    margin: 30px 0;
+}#footer .mid-item h4 {
+	margin-bottom: 15px;
+}
+#footer .duck1 {
+	display: none;
+}
+#footer .duck2 {
+	display: none;
+}
+#copy .left {
+	width: 100%;
+	text-align: center;
+}
+#copy .copy-right {
+	display: none;
+}
+#banner .shop-item {
+	padding: 100px 0;
+}
+#shop-details .details-left img{
+    width: 100%;
+}
+#shop-details .details-left .bbb {
+	margin-left: 7px;
+    padding: 10px 15px;
+}
+#shop-details .shop-right h4 {
+	margin: 25px 0;
+}
+#shop-details .shop-right .shop-head span {
+	margin-left: 0;
+}
+#shop-details .shop-right .shop-head .bars {
+	margin-bottom: 10px;
+}
+#shop-details .shop-right .shop-head select{
+    margin: 5px 5px;
+}
+#shop-details .shop-right .shop-head .last-span {
+	margin-left: 105px;
+}
+#shop-details .shop-right .picci {
+	margin-left: 210px !important;
+}
+#knit .choto-img .choto {
+	width: 70px;
+}
+#knit .right-text{
+    margin-top: 20px;
+}#knit .right-text .nember a {
+	margin: 0 4px;
+	padding: 12px 15px;
+	line-height: 15px;
+}
+.product-slider .slick-slide{
+	margin: 0 10px;
+	width: 100%;
+}
+.product-slider .slick-slide img{
+    width: 100%;
+}
+#knit .right-text .nember {
+	margin-bottom: 20px;
+}
+#knit .right-text h6 p {
+	margin-top: 0;
+}
+#Meet-Adoption .bred-slider .bred-item {
+    height: 300px;
+}
+#Meet-Adoption h3 {
+	font-size: 32px;
+}
+#Meet-Adoption h6 {
+	font-size: 14px;
+}
+#Meet-Adoption .able-right {
+	height: 302px;
+	padding: 25px;
+}
+#Meet-Adoption .able-right h5 {
+	font-size: 16px;
+}
+#Meet-Adoption .able-right h4 {
+	font-size: 35px;
+}
+#Meet-Adoption .able-right p {
+	font-size: 14px;
+	line-height: 21px;
+	margin-bottom: 22px;
+}
+#coun2 {
+    padding: 120px 0;
+    top: -50px;
+    padding-bottom: 80px;
+}
+#coun2 h3 {
+    font-size: 32px;
+    padding: 0;
+}#coun2 .counter-main {
+    text-align: center;
+    border: 1px solid #000;
+    padding: 22px 0;
+    border-bottom: 0;
+    margin: 10px 0;
+}
+#coun2 .counter-main:last-child{
+    border-bottom: 1px solid #000;
+}
+#coun2 .counter-main h5 {
+	padding: 0 18px;
+}
+#testi2 {
+	padding: 50px 20px;
+}
+#testi2 .dog-left {
+	position: absolute;
+	width: 48%;
+	object-fit: cover;
+	left: -70px;
+}
+#testi2 .tes-right h3 {
+	font-size: 32px;
+}
+#testi2 .tes-right .accordion-item h2 button i {
+	right: 15px;
+}
+#testi2 .tes-right .accordion-item h2 button i::after {
+	width: 35px;
+	height: 35px;
+	top: 2px;
+	left: 0px;
+}
+#testi2 .tes-right .tfshape {
+	display: none;
+}
+#Meet-Adoption2 h3 {
+	font-size: 32px;
+}
+#Meet-Adoption2 .slick-slide img {
+	object-fit: cover;
+	width: 100%;
+}
+#bio .bio-right form input {
+	width: 100%;
+}
+#bio .bio-right form .loca {
+	top: 152px;
+}
+#bio .bio-right form .plate {
+	top: 38%;
+}
+#bio .bio-right form .whi {
+	width: 49%;
+}
+#bio .bio-right form .dat {
+	width: 48%;
+}
+#bio .bio-right form .cal {
+	left: 52%;
+}
+#blog .blog-left .blog-item .blog-text h3 {
+	font-size: 28px;
+}
+#blog .blog-left .blog-comment::after {
+	top: 50px;
+}
+#blog .blog-item .indor{
+    margin: 10px 0;
+}
+#blog .blog-left .thomas {
+	padding: 30px 10px;
+}
+#blog .blog-left .thomas .t-text {
+	width: 60%;
+}
+#blog .blog-left .thomas .t-img {
+	width: 35%;
+}
+#blog .blog-left .t-aa {
+	display: flex;
+}
+#blog .blog-left .t-aa .p-n {
+	width: 50%;
+}
+#blog .blog-left .t-aa .p-p {
+	width: 50%;
+}
+#blog .blog-left .leave-form {
+	padding: 40px 20px;
+}
+#blog .blog-left .leave-form .author {
+	width: 45%;
+}
+#blog .blog-left .leave-form .author {
+	width: 45%;
+}
+#talk .talk-right p span {
+	width: 86%;
+}
+#talk .talk-left h2 {
+	font-size: 29px;
+}
+#talk .talk-right {
+	padding: 30px 10px;
+	width: 100%;
+    margin-left: 0;
+}
+#talk .talk-right p i {
+	margin-right: 10px;
+}
+#news .news-main {
+    border: 0;
+}
+
+    /* =================================================== */
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    header {
+        width: 100%;
+    }
+    header span {
+        display: inline-block;
+        margin: 10px 0;
+    }
+    header span .clock {
+        margin: 0;
+        margin-right: 10px;
+    }
+    header .icon {
+        float: none;
+        text-align: right;
+        display: inline;
+        position: static;
+    }header .folo {
+        float: none;
+        display: inline;
+        margin: 0;
+        margin-left: 235px;
+    }
+header .ooo{
+    margin: 8px;
+}
+nav{
+    padding: 0 ;
+    margin: 0 ;
+    margin-top: 30px !important;
+}
+    nav .right i .s-box {
+     top: 100px;
+     opacity: 0;
+     width: 380px;
+     height: 490px;
+     left: -200px;
+    }
+    /* nav .right .sea:hover .s-box {
+        top: 82px;
+        opacity: 1;
+    } */
+    nav .right::after {
+        left: -20px;
+    }  
+    .offcanvas-top {
+       display: inline-block;
+    }
+    nav ul li {
+        margin: 0 12px;
+        position: relative;
+    }
+    nav .bar{
+        color: #f04336;
+        font-size: 30px;
+    }
+    .navbar-toggler:focus {
+       box-shadow: none;
+       background: transparent;
+    }
+    nav .right i {
+        margin: 0 10px;
+    }nav .adobe {
+        width: 135px;
+    }
+    .navbar-expand-lg .navbar-nav {
+        margin-left: 0;
+        margin-top: 0;
+    }nav img {
+        margin-right: 40px;
+    }
+    nav ul li .drop-down {
+        width: 200px;
+        height: 0;
+    }
+    nav ul .drop:hover .drop-down {
+        top: 70px;
+        height: 120px;
+    }nav ul .nav-item .nav-link::after {
+        top: 3px;
+        left: -3px;
+        width: 110%;
+    }
+    .nav-fix {
+        top: -30px;
+    }
+    #banner .h-shape img {
+        top: -30px;
+    }
+    #banner .banner-item {
+        height: 650px;
+    }
+    #banner .slick-active .banner-text h2 span::after {
+        top: 4px;
+        left: -15px;
+    }
+    #banner .slick-active .banner-text h2 {
+        font-size: 61px;
+        line-height: 80px;
+        width: 100%;
+    }
+    #banner .slick-active .banner-text p {
+        line-height: 28px;
+        top: 345px;
+        width: 70%px;
+        animation: ppp 1.5s;
+    }
+    @keyframes ppp {
+      from {
+        top: 450px;
+      }
+      to {
+        top: 345px;
+      }
+    }
+    #banner .slick-active .banner-text button {
+        top: 450px;
+        animation: bbb 1.9s;
+      }
+      @keyframes bbb {
+        from {
+          top: 576px;
+        }
+        to {
+          top: 450px;
+        }
+      }
+    #banner .shape3 {
+        left: 70%;
+    }
+    #find {
+        top: -45px;
+    }
+      #find .find-main .find-item {
+        width: 20%;
+        padding: 59px 0;
+      }
+      #find .find-main .f-item {
+        width: 40%;
+        padding: 59px 0 !important;
+    }
+    #find .find-main .find-item .pets {
+        position: static;
+        width: 100%;
+    }#counter {
+        padding: 120px 0;
+        top: -50px;
+        padding-bottom: 80px;
+    }
+    #counter h3 {
+        font-size: 42px;
+    }#counter .counter-main {
+        text-align: center;
+        border: 1px solid #000;
+        padding: 22px 0;
+        border-bottom: 0;
+        margin: 10px 0;
+    }
+    #counter .counter-main:last-child{
+        border-bottom: 1px solid #000;
+    }
+    #happy h3 {
+        font-size: 42px;
+        width: auto;
+        margin: 30px 0;
+    }#happy h6 {
+        width: auto;
+        margin: 20px 0;
+    }
+    #happy .happy-right {
+        top: 25px;
+    }#availeable {
+        margin: 60px 0;
+    }
+    #availeable h3 {
+        font-size: 42px;
+    }#availeable .bshape1 {
+        top: -60px;
+    }
+    #availeable .bshape2 {
+        top: 9px;
+    }
+    #availeable .abale-main .abale-item {
+        margin: 0;
+        height: 373px;
+    }
+    #availeable .abale-main .abale-item img {
+        width: 100%;
+        margin: 0 10px;
+    }
+    #availeable .abale-main .abale-item .able-text {
+        left: 55px;
+        bottom: 11px;
+    }
+    #availeable .able-right {
+        margin-top: 47px;
+        width: 100%;
+        height: 370px;
+    }
+    #availeable .able-right h4 {
+        font-size: 32px;
+    }
+    #testi {
+        padding: 100px 20px;
+        z-index: 9;
+    }
+    #testi .tes-left {
+        width: 100%;
+        left: 0;
+        margin-top: 100px;
+    }
+    #testi .tes-left .tv-image {
+        width: 72%;
+        height: 64%;
+        top: 31%;
+        left: 6%;
+        z-index: -1;
+    }
+    #testi .tes-left .tv-image img{
+        width: 100%;
+    }
+    #testi .my-video-links {
+        top: 84px;
+        right: 4%;
+        width: 50px;
+        height: 50px;
+    }
+    #testi .tes-right .tfshape {
+     z-index: -1;
+    }
+    #testi .tes-right {
+        margin-left: 0;
+        width: 100%;
+    }
+    #testi .tes-right h3 {
+        font-size: 42px;
+    }
+    #meet h3 {
+        font-size: 42px;
+    }
+    #meet .meet-item {
+        width: 93%;
+        height: 160px;
+        left: 4%;
+        padding: 25px 10px;
+    }
+    #meet .meet-item p .husky {
+        width: 69%;
+    }
+    #meet .meet-item::after {
+        top: 90px;
+    }
+    #meet .meet-item p span i {
+        margin: 0 6px;
+    }
+    #customer h3 {
+        font-size: 42px;
+    }
+    #customer .tes-main .tes-item .tes-slide {
+        height: 370px;
+        margin: 0;
+    }#customer .tes-main .tes-item .tes-slide {
+        display: block;
+        border-radius: 10px;
+        margin: 0 10px;
+        height: 340px;
+        background: #fff;
+    }
+    #update .up-text {
+        padding: 30px 0;
+    }
+    #customer .tes-main .tes-item .tes-slide .text {
+        width: 100%;
+    }
+    #update h3 {
+        font-size: 42px;
+    }
+    #news .news-main button {
+        margin-top: 20px;
+    }
+    #news .news-main{
+        text-align: center;
+    }
+    #news .news-main h3 {
+        font-size: 42px;
+        padding-left: 0;
+        margin-top: 32px;
+    }
+    #news .news-main p{
+        padding-left: 0;
+    }
+    #news .news-main input {
+        margin: 30px 0;
+    }
+    #news .newsletter_shape01 {
+        display: none;
+    }
+    #news .newsletter_shape02 {
+        display: none;
+    }
+#footer .mid-item{
+    margin: 30px 0;
+}#footer .mid-item h4 {
+	margin-bottom: 15px;
+}
+#footer .duck1 {
+	display: none;
+}
+#footer .duck2 {
+	display: none;
+}
+#footer .f-last4 {
+	margin-top: 31px;
+}
+#copy .left {
+	width: 100%;
+	text-align: center;
+}
+#copy .copy-right {
+	display: none;
+}
+#banner .shop-item {
+	padding: 100px 0;
+}
+#shop-details .details-left img{
+    width: 100%;
+}
+#shop-details .details-left .bbb {
+	margin-left: 7px;
+    padding: 10px 15px;
+}
+#shop-details .shop-right h4 {
+	margin: 25px 0;
+}
+#shop-details .shop-right .shop-head span {
+	margin-left: 0;
+}
+#shop-details .shop-right .shop-head .bars {
+	margin-bottom: 10px;
+}
+#shop-details .shop-right .shop-head select{
+    margin: 5px 5px;
+}
+#shop-details .shop-right .shop-head .last-span {
+	margin-left: 30%;
+}
+#shop-details .shop-right .picci {
+	margin-left: 40% !important;
+}
+#knit .choto-img .choto {
+	width: 70px;
+}
+#knit .right-text{
+    margin-top: 20px;
+}#knit .right-text .nember a {
+	margin: 0 4px;
+	padding: 12px 15px;
+	line-height: 15px;
+}
+.product-slider .slick-slide{
+	margin: 0 10px;
+	width: 100%;
+}
+.product-slider .slick-slide img{
+    width: 100%;
+}
+#knit .right-text .nember {
+	margin-bottom: 20px;
+}
+#knit .right-text h6 p {
+	margin-top: 0;
+}
+#Meet-Adoption .bred-slider .bred-item {
+    height: 425px;
+}
+#Meet-Adoption h3 {
+	font-size: 42px;
+}
+#Meet-Adoption h6 {
+	font-size: 16px;
+    margin: 15px 0;
+}
+#Meet-Adoption .able-right {
+	height: 425px;
+	padding: 25px;
+}
+#Meet-Adoption .able-right h5 {
+	font-size: 24px;
+	margin: 15px 0;
+}
+#Meet-Adoption .able-right h4 {
+	font-size: 42px;
+}
+#Meet-Adoption .able-right p {
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 35px;
+}
+#coun2 {
+    padding: 120px 0;
+    top: -50px;
+    padding-bottom: 80px;
+}
+#coun2 h3 {
+    font-size: 32px;
+    padding: 0;
+}#coun2 .counter-main {
+    text-align: center;
+    border: 1px solid #000;
+    padding: 22px 0;
+    border-bottom: 0;
+    margin: 10px 0;
+}
+#coun2 .counter-main:last-child{
+    border-bottom: 1px solid #000;
+}
+#coun2 .counter-main h5 {
+	padding: 0 18px;
+}
+#testi2 {
+	padding: 50px 20px;
+}
+#testi2 .dog-left {
+	position: absolute;
+	width: 48%;
+	object-fit: cover;
+	left: -70px;
+}
+#testi2 .tes-right h3 {
+	font-size: 32px;
+}
+#testi2 .tes-right .accordion-item h2 button i {
+	right: 15px;
+}
+#testi2 .tes-right .accordion-item h2 button i::after {
+	width: 35px;
+	height: 35px;
+	top: 2px;
+	left: 0px;
+}
+#testi2 .tes-right .tfshape {
+	display: none;
+}
+#Meet-Adoption2 h3 {
+	font-size: 32px;
+}
+#Meet-Adoption2 .slick-slide img {
+	object-fit: cover;
+	width: 100%;
+}
+#bio .bio-right form input {
+	width: 100%;
+}
+#bio .bio-right form .loca {
+	top: 152px;
+}
+#bio .bio-right form .plate {
+	top: 38%;
+}
+#bio .bio-right form .whi {
+	width: 49%;
+}
+#bio .bio-right form .dat {
+	width: 48%;
+}
+#bio .bio-right form .cal {
+	left: 52%;
+}
+#blog .blog-left .blog-item .blog-text h3 {
+	font-size: 28px;
+}
+#blog .blog-left .blog-comment::after {
+	top: 50px;
+}
+#blog .blog-item .indor{
+    margin: 10px 0;
+}
+#blog .blog-left .thomas {
+	padding: 30px 10px;
+}
+#blog .blog-left .thomas .t-text {
+	width: 60%;
+}
+#blog .blog-left .thomas .t-img {
+	width: 35%;
+}
+#blog .blog-left .t-aa {
+	display: flex;
+}
+#blog .blog-left .t-aa .p-n {
+	width: 50%;
+}
+#blog .blog-left .t-aa .p-p {
+	width: 50%;
+}
+#blog .blog-left .leave-form {
+	padding: 40px 20px;
+}
+#blog .blog-left .leave-form .author {
+	width: 45%;
+}
+#blog .blog-left .leave-form .author {
+	width: 45%;
+}
+#talk .talk-right p span {
+	width: 86%;
+}
+#talk .talk-left h2 {
+	font-size: 29px;
+}
+#talk .talk-right {
+	padding: 30px 10px;
+	width: 100%;
+    margin-left: 0;
+}
+#talk .talk-right p i {
+	margin-right: 10px;
+}
+#news .news-main {
+    border: 0;
+}
+
+    /* =================================================== */
+}
